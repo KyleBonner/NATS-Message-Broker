@@ -27,6 +27,6 @@ except:
 
     
 print("This is a client")
-print("type:", sys.argv[1])
-print("subject:", sys.argv[2])
+print("type:", client_type)
+print("subject:", client_subject)
 print("message:", message)
