@@ -10,13 +10,9 @@ except:
     print("Arguments Error")
     sys.exit()
 
-try:
-    if sys.argv[3] != "request" and sys.argv[3] != "reply":
-        print("Invalid subject")
-        sys.exit()
-except:
-    print("Subject input Error")
-    sys.exit() 
+if sys.argv[3] != "request" and sys.argv[3] != "reply":
+    print("Invalid subject")
+    sys.exit()
 
     #Bug may occur here if the message arguments are not properly concatenated
 
