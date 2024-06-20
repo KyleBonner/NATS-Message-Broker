@@ -6,15 +6,24 @@ try:
     client_subject = sys.argv[2]
     client_message = sys.argv[3]
 except:
-    print("Arguments Invalid")
+    print("Arguments Error")
     sys.exit()
 
-if sys.argv[1] != "request" and sys.argv[1] != "reply":
-    print("Invalid subject")
-    sys.exit()  
+try:
+    if sys.argv[1] != "request" and sys.argv[1] != "reply":
+        print("Invalid subject")
+        sys.exit()
+except:
+    print("Subject input Error")
+    sys.exit() 
 
-
+try:
+    message = ' '.join(sys.argv[3:])
+except:
+    print("Message concatenation Error")
+    sys.exit()
+    
 print("This is a client")
 print("type:", sys.argv[1])
 print("subject:", sys.argv[2])
-print("message:", sys.argv[3])
+print("message:", message)
