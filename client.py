@@ -17,11 +17,14 @@ except:
     print("Subject input Error")
     sys.exit() 
 
+    #Bug may occur here if the message arguments are not properly concatenated
+
 try:
     message = ' '.join(sys.argv[3:])
 except:
     print("Message concatenation Error")
     sys.exit()
+
     
 print("This is a client")
 print("type:", sys.argv[1])
