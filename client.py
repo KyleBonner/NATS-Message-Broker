@@ -2,7 +2,7 @@ import socket
 import sys
 
 try:    
-    client_type  = sys.argv[1]
+    client_type    = sys.argv[1]
     client_subject = sys.argv[2]
     client_message = sys.argv[3]
 except:
