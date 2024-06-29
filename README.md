@@ -4,12 +4,13 @@ Message oriented middleware to facilitate communication between multiple process
 This is a solo project that is being developed to emulate the primary functionality of NATS in python.
 
 See NATS here: https://github.com/orgs/nats-io/repositories
+
 NATS Documentation: https://docs.nats.io/
 
 **Tech used:** Python
 
 ## Progress:
-Client.py accepts arguements that are held by the running client. 
+Finished Design documents & pseudocode
 
 ## Lessons Learned:
 
