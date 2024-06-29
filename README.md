@@ -1,5 +1,5 @@
 # NATS-Message-Broker
-Message oriented middleware to facilitate communication between multiple processes
+Message oriented middleware to facilitate communication between processes
 
 This is a solo project that is being developed to emulate the primary functionality of NATS in python.
 
